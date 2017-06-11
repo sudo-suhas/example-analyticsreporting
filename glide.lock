@@ -1,0 +1,57 @@
+hash: e80f83a6eb9574c164d50b3e1c5156863d577698a52f86e5c395f0aa57b8ca84
+updated: 2017-06-11T09:45:36.05845+05:30
+imports:
+- name: cloud.google.com/go
+  version: c60d02f3cdeb4bf91d4810e9e505800cad03ce9f
+  subpackages:
+  - compute/metadata
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/golang/protobuf
+  version: 5a0f697c9ed9d68fef0116532c6e05cfeae00e55
+  subpackages:
+  - proto
+- name: github.com/Sirupsen/logrus
+  version: 202f25545ea4cf9b191ff7f846df5d87c9382c2b
+- name: golang.org/x/net
+  version: 1a68b1313cf4ad7778376e82641197b60c02f65c
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: f047394b6d14284165300fd82dad67edb3a4d7f6
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/sys
+  version: dbc2be9168a660ef302e04b6ff6406de6f967473
+  subpackages:
+  - unix
+- name: google.golang.org/api
+  version: 324744a33f1f37e63dd1695cfb3ec9a3e4a1cb05
+  subpackages:
+  - analyticsreporting/v4
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+- name: google.golang.org/appengine
+  version: a2f4131514e563cedfdb6e7d267df9ad48591e93
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: gopkg.in/alecthomas/kingpin.v2
+  version: 7f0871f2e17818990e4eed73f9b5c2f429501228
+testImports: []

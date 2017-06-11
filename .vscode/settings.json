@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.eol": "\n",
+    "files.autoSaveDelay": 30000,
+    "go.enableCodeLens": {
+        "references": true,
+        "runtest": true
+    },
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 500
+    }
+}

@@ -1,0 +1,12 @@
+package: github.com/sudo-suhas/example-analyticsreporting
+import:
+- package: github.com/Sirupsen/logrus
+  version: ^1.0.0
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - analyticsreporting/v4
+- package: gopkg.in/alecthomas/kingpin.v2
+  version: ^2.2.4
