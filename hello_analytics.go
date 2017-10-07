@@ -134,22 +134,22 @@ func getReport(svc *ga.Service) (*ga.GetReportsResponse, error) {
 	// A GetReportsRequest instance is a batch request
 	// which can have a maximum of 5 requests
 	req := &ga.GetReportsRequest{
-		// Our request contians only one request
+		// Our request contains only one request
 		// So initialise the slice with one ga.ReportRequest object
 		ReportRequests: []*ga.ReportRequest{
 			// Create the ReportRequest object.
-			&ga.ReportRequest{
+			{
 				ViewId: *viewID,
 				DateRanges: []*ga.DateRange{
 					// Create the DateRange object.
-					&ga.DateRange{StartDate: "7daysAgo", EndDate: "today"},
+					{StartDate: "7daysAgo", EndDate: "today"},
 				},
 				Metrics: []*ga.Metric{
 					// Create the Metrics object.
-					&ga.Metric{Expression: "ga:sessions"},
+					{Expression: "ga:sessions"},
 				},
 				Dimensions: []*ga.Dimension{
-					&ga.Dimension{Name: "ga:country"},
+					{Name: "ga:country"},
 				},
 			},
 		},
